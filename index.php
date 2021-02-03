@@ -54,7 +54,7 @@ if(isset($_POST['send'])){
 
     if(isset($send)){
         if($send){
-            echo "$html.à bien été envoyé à .$to<br>";
+            echo "$html à bien été envoyé à $to<br>";
         }
         else{
             echo "Le message à $to n'a pas été envoyé <br>";
